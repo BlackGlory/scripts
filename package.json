@@ -1,0 +1,16 @@
+{
+  "name": "@blackglory/scripts",
+  "version": "0.1.0",
+  "bin": {
+    "clean-es-modules": "clean-es-modules.sh"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": "git@github.com:BlackGlory/scripts.git",
+  "author": "BlackGlory <woshenmedoubuzhidao@blackglory.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "^9.1.0"
+  }
+}
