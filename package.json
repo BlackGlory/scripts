@@ -1,9 +1,7 @@
 {
   "name": "@blackglory/scripts",
   "version": "0.1.0",
-  "bin": {
-    "clean-es-modules": "clean-es-modules.sh"
-  },
+  "bin": {},
   "scripts": {
     "release": "standard-version"
   },
