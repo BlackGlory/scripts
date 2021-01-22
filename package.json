@@ -1,10 +1,10 @@
 {
   "name": "@blackglory/scripts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
-    "backup-docker-volumes": "./bash/backup-docker-volumes.sh"
-  , "backup-all-docker-volumes": "./bash/backup-all-docker-volumes.sh"
-  , "restore-docker-volume-from-tar": "./bash/restore-docker-volume-from-tar.sh"
+    "backup-docker-volumes": "./bash/backup-docker-volumes.sh",
+    "backup-all-docker-volumes": "./bash/backup-all-docker-volumes.sh",
+    "restore-docker-volume-from-tar": "./bash/restore-docker-volume-from-tar.sh"
   },
   "scripts": {
     "release": "standard-version"
