@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/BlackGlory/scripts/compare/v0.1.2...v0.1.3) (2021-01-22)
+
+
+### Bug Fixes
+
+* path ([57e78e2](https://github.com/BlackGlory/scripts/commit/57e78e2e9e7ff33c61d9d319b7bcd6c5fc8d3fa2))
+
 ### [0.1.2](https://github.com/BlackGlory/scripts/compare/v0.1.1...v0.1.2) (2021-01-22)
 
 
