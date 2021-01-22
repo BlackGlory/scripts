@@ -8,5 +8,5 @@ containers=$(docker ps --format '{{.Names}}')
 
 # 为每个容器调用backup-docker-volumes.sh
 while IFS= read container; do
-  ./backup-docker-volumes.sh "$container" "$path/$container"
+  "$(dirname "${BASH_SOURCE[0]}")/backup-docker-volumes.sh" "$container" "$path/$container"
 done <<< "$containers"
