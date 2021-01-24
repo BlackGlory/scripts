@@ -4,7 +4,9 @@
   "bin": {
     "backup-docker-volumes": "./bash/backup-docker-volumes.sh",
     "backup-all-docker-volumes": "./bash/backup-all-docker-volumes.sh",
-    "restore-docker-volume-from-tar": "./bash/restore-docker-volume-from-tar.sh"
+    "restore-docker-volume-from-tar": "./bash/restore-docker-volume-from-tar.sh",
+    "convert-flv-to-mp4": "./powershell/convert-flv-to-mp4.ps1",
+    "find-process-by-port": "./powershell/find-process-by-port.ps1"
   },
   "scripts": {
     "release": "standard-version"
