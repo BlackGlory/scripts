@@ -1,3 +1,4 @@
+#Requires -PSEdition Core
 # 查找占用端口的进程
 # find-process-by-port.ps1 [-port] <int>
 # port 需要查询的端口号

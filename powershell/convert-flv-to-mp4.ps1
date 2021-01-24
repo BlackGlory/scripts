@@ -1,3 +1,4 @@
+#Requires -PSEdition Core
 # 使用 ffmpeg 将 flv 文件转换为 mp4, 在同目录下以 mp4 扩展名保存
 # convert-flv-to-mp4.ps1 [-filename] <string> [[-title] <string>]
 # filename 源文件路径, 通常为扩展名为 flv 的文件
