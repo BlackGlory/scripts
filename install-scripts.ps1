@@ -1,3 +1,4 @@
+#Requires -PSEdition Core
 # install-scripts.ps1
 
 function Get-UserPath {
