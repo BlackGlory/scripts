@@ -21,6 +21,7 @@ function Get-ScriptChildrenPathList {
   | % { $_.FullName } `
   | ? { -Not $_.Contains('.git') }
   | ? { -Not $_.Contains('node_modules') }
+  | ? { -Not $_.Contains('helpers') }
 }
 
 function Get-ScriptPathList {

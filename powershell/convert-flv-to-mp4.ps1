@@ -4,6 +4,11 @@
 # filename 源文件路径, 通常为扩展名为 flv 的文件
 # title 输出文件名的前缀, 可以省略
 
+if ($PSVersionTable.PSVersion -lt "6.0") {
+	pwsh -f $SCRIPT:MyInvocation.MyCommand.Path
+	return
+}
+
 param (
   [Parameter(Mandatory=$true)]
   [String]

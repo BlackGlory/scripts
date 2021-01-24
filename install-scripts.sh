@@ -6,6 +6,7 @@ paths=$(
   find "$script_root" -mindepth 1 -type d -print0 \
 | grep --null-data --invert-match '.git' \
 | grep --null-data --invert-match 'node_modules' \
+| grep --null-data --invert-match 'helpers' \
 | xargs --null readlink --canonicalize \
 )
 echo $paths
