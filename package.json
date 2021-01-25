@@ -4,9 +4,7 @@
   "bin": {
     "backup-docker-volumes": "./bash/docker/backup-docker-volumes.sh",
     "backup-all-docker-volumes": "./bash/docker/backup-all-docker-volumes.sh",
-    "restore-docker-volume-from-tar": "./bash/docker/restore-docker-volume-from-tar.sh",
-    "restart-explorer": "./cmd/restart-explorer.cmd",
-    "deduplicate-files-by-hard-links": "./node.js/deduplicate-files-by-hard-links.cjs"
+    "restore-docker-volume-from-tar": "./bash/docker/restore-docker-volume-from-tar.sh"
   },
   "scripts": {
     "release": "standard-version"
