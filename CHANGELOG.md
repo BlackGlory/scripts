@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/BlackGlory/scripts/compare/v0.1.7...v0.1.8) (2021-01-25)
+
+
+### Features
+
+* add ffmpeg scripts ([79f113c](https://github.com/BlackGlory/scripts/commit/79f113c5554773a148d1149578f92475e696902f))
+* add scripts ([02ed7b9](https://github.com/BlackGlory/scripts/commit/02ed7b9bebcdf41f636f07327e7930c307bee414))
+
 ### [0.1.7](https://github.com/BlackGlory/scripts/compare/v0.1.6...v0.1.7) (2021-01-24)
 
 ### [0.1.6](https://github.com/BlackGlory/scripts/compare/v0.1.5...v0.1.6) (2021-01-24)
