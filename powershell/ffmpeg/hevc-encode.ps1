@@ -1,3 +1,4 @@
+#Requires -PSEdition Core
 # 用 ffmpeg 的 NVENC 的 CQ 参数压制 HEVC 视频
 # hevc-encode.ps1 [-filename] <string> [-cq] <int>
 # filename 需要转码的视频文件

@@ -2,9 +2,11 @@
   "name": "@blackglory/scripts",
   "version": "0.1.7",
   "bin": {
-    "backup-docker-volumes": "./bash/backup-docker-volumes.sh",
-    "backup-all-docker-volumes": "./bash/backup-all-docker-volumes.sh",
-    "restore-docker-volume-from-tar": "./bash/restore-docker-volume-from-tar.sh"
+    "backup-docker-volumes": "./bash/docker/backup-docker-volumes.sh",
+    "backup-all-docker-volumes": "./bash/docker/backup-all-docker-volumes.sh",
+    "restore-docker-volume-from-tar": "./bash/docker/restore-docker-volume-from-tar.sh",
+    "restart-explorer": "./cmd/restart-explorer.cmd",
+    "deduplicate-files-by-hard-links": "./node.js/deduplicate-files-by-hard-links.cjs"
   },
   "scripts": {
     "release": "standard-version"
