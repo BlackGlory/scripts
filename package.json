@@ -1,6 +1,6 @@
 {
   "name": "@blackglory/scripts",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "bin": {
     "backup-docker-volumes": "./bash/docker/backup-docker-volumes.sh",
     "backup-all-docker-volumes": "./bash/docker/backup-all-docker-volumes.sh",
