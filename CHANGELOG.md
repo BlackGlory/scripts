@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/BlackGlory/scripts/compare/v0.1.10...v0.1.11) (2021-02-19)
+
+
+### Features
+
+* add execute-in-subdir ([25b76fa](https://github.com/BlackGlory/scripts/commit/25b76fab04bde32e5d3c75f0f44e6a5f61f3ba7c))
+
 ### [0.1.10](https://github.com/BlackGlory/scripts/compare/v0.1.9...v0.1.10) (2021-02-07)
 
 ### [0.1.9](https://github.com/BlackGlory/scripts/compare/v0.1.8...v0.1.9) (2021-02-04)
