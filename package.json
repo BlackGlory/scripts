@@ -5,7 +5,7 @@
     "backup-docker-volumes": "./bash/docker/backup-docker-volumes.sh",
     "backup-all-docker-volumes": "./bash/docker/backup-all-docker-volumes.sh",
     "restore-docker-volume-from-tar": "./bash/docker/restore-docker-volume-from-tar.sh",
-    "execute-in-subdir": "./bash/docker/execute-in-subdir.sh"
+    "execute-in-subdir": "./bash/execute-in-subdir.sh"
   },
   "scripts": {
     "release": "standard-version"
